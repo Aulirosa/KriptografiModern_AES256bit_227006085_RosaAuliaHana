@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+
+                /*
+                --main-color: rgba(254, 70, 174, 1);
+                --second-color: rgba(33, 32, 45, 1);
+                --main-font-color: rgba(255, 255, 255, 1);
+                --second-font-color: rgba(255, 255, 255, 0.6);
+                --main-font: "Poppins", sans-serif;
+                --second-font: "Kaushan Script", cursive;8*/
+
+                /*COLOR*/
+                --main-color: #fffcf6;
+                --second-color-forestgreen: rgba(106, 124, 95, 1);
+                --second-color-stone: rgba(204, 191, 178, 1);
+                --second-color-sage: rgba(195, 206, 189, 0.6);
+
+
+                /*fonts*/
+                --main-font: "Poppins";
+}
+
+body {
+                font-family: var(--main-font);
+                background-color: #081f5c;
+                margin-top: 50px;
+                margin-bottom: 50px;
+
+}
+
+.judul {
+
+                text-align: center;
+
+
+}
+
+.container {
+                margin-left: 20%;
+                margin-right: 20%;
+                align-items: center;
+}
+
+
+
+
+.form-control {
+
+                display: block;
+                width: 97%;
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: .25rem;
+                margin: 0 auto;
+                transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.btn {
+                display: inline-block;
+                font-weight: 400;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                background-color: #007bff;
+
+}
+
+.form-group {
+                margin-bottom: 1rem;
+}
+
+label {
+                display: inline-block;
+                margin-bottom: .5rem;
+                /*margin-left: 8.2%;*/
+}
+
+.container-2 {
+                background-color: whitesmoke;
+                border-radius: 1rem;
+                padding-bottom: 1rem;
+                padding-left: 2rem;
+                padding-top: 1rem;
+                padding-right: 2rem;
+                margin: 0 auto;
+                max-width: 800px;
+}
+
+
+
+.judul2 {
+                font-weight: bold;
+}
+
+.btn-primary {
+                color: #fff;
+                background-color: #007bff;
+                border-color: #007bff;
+                font-family: var(--main-font);
+}
+
+.btn {
+                display: inline-block;
+                font-weight: 400;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                user-select: none;
+                border: 1px solid transparent;
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                line-height: 1.5;
+                border-radius: .25rem;
+                margin: 0 auto;
+                transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+p {
+                margin-top: -20px;
+}
+
+form {
+                width: 100%;
+                padding-right: 0.7rem;
+}
+
+.alert,
+.alert-success {
+                margin-top: 1rem;
+                display: block;
+                width: 100%;
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                color: black;
+                border: 1 px solid #ced4da;
+                border-radius: .25rem;
+                align-items: center;
+                margin: 0 auto;
+                color: #155724;
+                background-color: #d4edda;
+                overflow-wrap: break-word;
+                box-sizing: border-box;
+
+}
+
+.alert {
+                position: relative;
+                padding: .75rem 1.25rem;
+                margin-bottom: 1rem;
+                border: 1px solid transparent;
+                border-radius: .25rem;
+                overflow-wrap: break-word;
+}
+
+.mt-3 {
+                margin-top: 1rem;
+}
+
+.teks-enkrip {
+                word-wrap: break-word !important;
+}
+
+.form-control {
+                width: 100%;
+                background-color: whitesmoke;
+                box-sizing: border-box;
+}
+
+.kunci {
+                font-family: var(--main-font);
+}
+
+img {
+                max-width: 10rem;
+                margin-top: -0.5rem;
+}
